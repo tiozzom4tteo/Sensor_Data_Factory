@@ -245,7 +245,9 @@ void Model::save(const std::string &filename)
             unsigned int size = sensors[i]->getMisurations().size();
             for (double misuration : sensors[i]->getMisurations())
             {
-                sensorData += std::to_string(misuration) + ", ";
+                std::string mis =  std::to_string(misuration);
+                std::replace(mis.begin(), mis.end(), ',', '.');
+                sensorData += mis + ", ";
             }
             if(size!=0)
                 sensorData = sensorData.substr(0, sensorData.size() - 2);
