@@ -1,8 +1,7 @@
 #include "SensorView.h"
 #include "SensorsViewerManager.h"
 
-SensorView::SensorView(QWidget *parent) : QWidget(parent), mainContainer(new QFrame()), findInput(new QLineEdit(mainContainer)), scrollArea(new QScrollArea(mainContainer)), scrollContent(new QWidget(scrollArea)),
-                                          scrollLayout(new QVBoxLayout(scrollContent))
+SensorView::SensorView(QWidget *parent) : QWidget(parent), mainContainer(new QFrame())
 
 {
 }
@@ -18,8 +17,6 @@ SensorView::~SensorView()
 
 QFrame *SensorView::addSensorsView()
 {
-    // aggiunto questa parte per togliere il quadratino
-    QFrame *mainContainer = new QFrame();
     mainContainer->setMinimumSize(650, 500);
     mainContainer->setFrameShape(QFrame::StyledPanel);
     mainContainer->setFrameShadow(QFrame::Plain);
@@ -35,7 +32,9 @@ QFrame *SensorView::addSensorsView()
     scrollArea->setStyleSheet("background-color: #f5f5f5;");
     scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
     QVBoxLayout *Layout = new QVBoxLayout(mainContainer);
+
     QVBoxLayout *Layout2 = new QVBoxLayout();
+    findInput = new QLineEdit();
     findInput->setPlaceholderText("Find sensor...");
     findInput->setStyleSheet(Style::getLineEditStyle());
 
@@ -84,8 +83,7 @@ void SensorView::createSensorPerView(Sensor *sensor, const std::string &tipo, co
     modify->setStyleSheet(Style::getButton());
     modify->setMinimumSize(0, 20);
 
-    connect(eliminate, &QPushButton::clicked, this, [=]()
-            { manager->deleteSensor(frame, index); });
+    connect(eliminate, &QPushButton::clicked, this, [=](){manager->deleteSensor(frame, index); });
 
     connect(modify, &QPushButton::clicked, this, [=]()
             {

@@ -1,0 +1,44 @@
+[
+{
+  "Categoria": "Accellerometer",
+  "Name": "Sensore 1",
+  "Model": "ECAB-9840",
+  "Description": "Prova descrizione",
+  "Misuration": "[]"
+},
+{
+  "Categoria": "ElettroSensor",
+  "Name": "Sensore 2",
+  "Model": "ECAB-9841",
+  "Description": "Prova descrizione",
+  "Misuration": "[]"
+},
+{
+  "Categoria": "Giroscope",
+  "Name": "Sensore 3",
+  "Model": "ECAB-9842",
+  "Description": "Prova descrizione",
+  "Misuration": "[]"
+},
+{
+  "Categoria": "SemiConductors",
+  "Name": "Sensore 4",
+  "Model": "ECAB-9843",
+  "Description": "Prova descrizione",
+  "Misuration": "[]"
+},
+{
+  "Categoria": "TermoResistance",
+  "Name": "Sensore 5",
+  "Model": "ECAB-9844",
+  "Description": "Prova descrizione",
+  "Misuration": "[]"
+},
+{
+  "Categoria": "TermoCouples",
+  "Name": "Sensore 6",
+  "Model": "ECAB-9845",
+  "Description": "Prova descrizione",
+  "Misuration": "[]"
+}
+]

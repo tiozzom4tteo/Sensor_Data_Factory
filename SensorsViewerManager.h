@@ -65,8 +65,8 @@ public:
     void showSensorsView(const std::vector<Sensor *> &);
     void showModifySensorView(const std::string &, const std::string &, const std::string &);
     void showGraphSensorView(Sensor *, const unsigned int&, const std::string&) const;
-    void deleteSensor(QFrame *, const unsigned int&);
-    void modifySensor(const std::string &, const std::string &, const std::string &);
+    void deleteSensor(QFrame *, const unsigned int&) const;
+    void modifySensor(const std::string &, const std::string &, const std::string &) const;
     void createSensor(const unsigned int&, const std::string&, const std::string&, const std::string&) const;
 
 public slots:

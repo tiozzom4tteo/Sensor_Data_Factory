@@ -83,22 +83,22 @@ QFrame *SensorsViewer::addMenuView()
     return mainContainer;
 }
 
-QPushButton *SensorsViewer::getSensorGasButton()
+QPushButton *SensorsViewer::getSensorGasButton() const
 {
     return SensorGasButton;
 }
 
-QPushButton *SensorsViewer::getSensorMovButton()
+QPushButton *SensorsViewer::getSensorMovButton() const
 {
     return SensorMovButton;
 }
 
-QPushButton *SensorsViewer::getSensorTempButton()
+QPushButton *SensorsViewer::getSensorTempButton() const
 {
     return SensorTempButton;
 }
 
-QPushButton *SensorsViewer::getSensorAllButton()
+QPushButton *SensorsViewer::getSensorAllButton() const
 {
     return SensorAllButton;
 }

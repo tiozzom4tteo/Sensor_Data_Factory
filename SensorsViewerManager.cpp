@@ -211,13 +211,13 @@ void SensorsViewerManager::show() const
     window->show();
 }
 
-void SensorsViewerManager::deleteSensor(QFrame *frame, const unsigned int &index)
+void SensorsViewerManager::deleteSensor(QFrame *frame, const unsigned int &index) const
 {
     delete frame;
     controller->removeSensor(index);
 }
 
-void SensorsViewerManager::modifySensor(const std::string &name, const std::string &model, const std::string &description)
+void SensorsViewerManager::modifySensor(const std::string &name, const std::string &model, const std::string &description) const
 {
     controller->modifySensor(name, model, description);
 }

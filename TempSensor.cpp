@@ -1,6 +1,6 @@
 #include "TempSensor.h"
 
-TempSensor::TempSensor(const double &res, const double &mis) : resistance(res), temperature(mis){};
+TempSensor::TempSensor(const double& res, const double& mis) : resistance(res), temperature(mis){} ;
 
 void TempSensor::setResistence(const double &res)
 {

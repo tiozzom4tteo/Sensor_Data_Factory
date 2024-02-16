@@ -32,10 +32,10 @@ public:
     ~SensorsViewer();
     void setManager(SensorsViewerManager *);
     QFrame *addMenuView();
-    QPushButton *getSensorGasButton();
-    QPushButton *getSensorMovButton();
-    QPushButton *getSensorTempButton();
-    QPushButton *getSensorAllButton();
+    QPushButton *getSensorGasButton() const;
+    QPushButton *getSensorMovButton() const;
+    QPushButton *getSensorTempButton() const;
+    QPushButton *getSensorAllButton() const;
 
 signals:
 };
