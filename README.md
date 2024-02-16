@@ -27,29 +27,26 @@ There is a technical sheet about the project (written in italian), you can find 
 
 ## Evaluation
 
-`
-Feedback Object Oriented Programming
-
 Evaluation: 2/3
 
 Mandatory constraints:
-+Satisfied
++ Satisfied
 
 Object orientation:
-+Encapsulation
-+Modularity (logical model and GUI are separated)
-+Extensibility and scalability, polymorphism
-+Efficiency and robustness
++ Encapsulation
++ Modularity (logical model and GUI are separated)
++ Extensibility and scalability, polymorphism
++ Efficiency and robustness
 
 Functionality:
-+Keyboard shortcuts
-+Interactive simulation
++ Keyboard shortcuts
++ Interactive simulation
 
 GUI:
--Unintuitive use
--Resizing management can be improved
-+Displays different types of data appropriately
+- Unintuitive use
+- Resizing management can be improved
++ Displays different types of data appropriately
 
 Suggestions for improvements:
 None.
-`
+
