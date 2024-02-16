@@ -47,6 +47,4 @@ GUI:
 - Resizing management can be improved
 + Displays different types of data appropriately
 
-Suggestions for improvements:
-None.
 ```
