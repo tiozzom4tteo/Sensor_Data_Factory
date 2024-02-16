@@ -27,7 +27,7 @@ There is a technical sheet about the project (written in italian), you can find 
 
 ## Evaluation
 
-'''
+`
 Feedback Object Oriented Programming
 
 Evaluation: 2/3
@@ -52,4 +52,4 @@ GUI:
 
 Suggestions for improvements:
 None.
-'''
+`
