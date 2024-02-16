@@ -26,7 +26,7 @@ To build the project you need to:
 There is a technical sheet about the project (written in italian), you can find it in the "relazione" folder.
 
 ## Evaluation
-
+```bash
 Evaluation: 2/3
 
 Mandatory constraints:
@@ -49,4 +49,4 @@ GUI:
 
 Suggestions for improvements:
 None.
-
+```
